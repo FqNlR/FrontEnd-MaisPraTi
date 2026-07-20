@@ -3,10 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Luiz Roberto | Portfólio</title>
+ 
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-        
+    <header>
+        <div class="container cabecalho">
+            <h1>Meu Portfólio</h1>
+
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="container">
+                <p class="apresentacao">Olá, me chamo Luiz Roberto Rolian Schardosim e sou</p>
+
+                <h2>Estudante de Engenharia de Computação (UFRGS)</h2>
+
+                <p>
+                    Sou um grande aficionado por tudo relacionado a tecnologia e
+                    estou buscando me aventurar mais nesse mundo por meio de projetos acadêmicos e pessoais.
+                </p>
+
+                <button id="botao-projetos">
+                    Veja meus projetos!
+                </button>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre mim</h2>
+
+                <p>
+                    Sou estudante de graduação em Engenharia de Computação na Universidade Federal do Rio Grande do Sul e tenho interesse
+                    em desenvolvimento de software, microeletrônica, sistemas embarcados e segurança da informação.
+                </p>
+
+                <p>
+                    Algumas das minhas skills:
+                </p> 
+                
+                <ul>    
+                    <li>Linguagens:
+                        <ul>
+                            <li class="sublist">C</li>
+                            <li class="sublist">C++</li>
+                            <li class="sublist">Java</li>
+                            <li class="sublist">Javascript</li>
+                            <li class="sublist">Python</li>
+                            <li class="sublist">Assembly</li>
+                        </ul>
+                    </li>
+                    <li>Concepção de circuitos digitais (VHDL)</li>
+                    <li>Versionamento de código (Git, GitHub)</li>
+                    <li>Estruturas de dados e otimização de algorítmos (programação competitiva)</li>
+                </ul>
+                <li>
+                    Atualmente estou parcipando do programa Dev. Full Stack (+PraTi e Codifica),
+                    com o intuito de ampliar meus conhecimentos na área de desenvolvimento de software,
+                    indo um pouco além do meu foco em computação baixo-nível.
+                </li>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+
+                <p class="descricao-secao-projetos">
+                    Esta seção apresenta alguns dos meus repositórios públicos
+                    disponíveis na minha
+                    <a href="https://github.com/FqNlR" target="_blank" rel="noopener noreferrer" class="pagelink">
+                        página do GitHub
+                    </a>
+                    
+                </p>
+
+                <p id="mensagem-projetos">
+                    Carregando projetos...
+                </p>
+
+                <div id="lista-projetos" class="lista-projetos">
+                    <!-- Os cards serão criados pelo js -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+
+                <form id="formulario-contato">
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Nome"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required
+                >
+
+                <textarea
+                    id="mensagem"
+                    placeholder="Mensagem"
+                    rows="4"
+                    required
+                ></textarea>
+
+            <button type="submit">Enviar</button>
+
+            <p id="resultado-formulario"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Desenvolvido por Luiz Roberto Rolian Schardosim
+            </p>
+            <p>
+                <a href="https://github.com/FqNlR" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+                | 
+                <a href="http://lattes.cnpq.br/2669939190983958" target="_blank" rel="noopener noreferrer">
+                    CV Lattes
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
