@@ -210,48 +210,23 @@ button:hover {
 /* Formulário */
 
 .contato {
-    background-color: white;
+    background-color: #e9eef3;
 }
 
-.descricao-secao-contato {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-form {
-    max-width: 600px;
-}
-
-.campo {
+.contato form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 18px;
+    gap: 12px;
+    max-width: 500px;
 }
 
-.campo label {
-    margin-bottom: 6px;
-    font-weight: bold;
-}
-
-.campo input,
-.campo textarea {
+.contato input,
+.contato textarea {
     padding: 10px;
     border: 1px solid #bbbbbb;
     border-radius: 4px;
     font-family: Arial, sans-serif;
-    font-size: 15px;
 }
-
-.campo textarea {
-    resize: vertical;
-}
-
-#resultado-formulario {
-    margin-top: 15px;
-    color: green;
-    font-weight: bold;
-}
-
 
 /* Rodapé */
 

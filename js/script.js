@@ -1,5 +1,3 @@
-// Elementos usados no JavaScript
-
 const botaoProjetos = document.getElementById("botao-projetos");
 const secaoProjetos = document.getElementById("projetos");
 const listaProjetos = document.getElementById("lista-projetos");
@@ -112,8 +110,7 @@ formulario.addEventListener("submit", function (evento) {
     const nome = document.getElementById("nome").value;
 
     resultadoFormulario.textContent =
-        "Obrigado pelo contato, " + nome +
-        "! Responderei assim que possível.";
+        "Obrigado, " + nome + "! Mensagem enviada.";
 
     formulario.reset();
 });
