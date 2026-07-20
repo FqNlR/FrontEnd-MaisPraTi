@@ -39,7 +39,7 @@ async function buscarProjetos() {
             return repositorio.fork === false;
         });
 
-        // Mostra no máximo seis projetos
+        // Mostra no máximo doze projetos
         const projetosExibidos = projetosProprios.slice(0, 12);
 
         if (projetosExibidos.length === 0) {
